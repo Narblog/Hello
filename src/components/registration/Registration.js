@@ -13,10 +13,13 @@ class Registration extends Component {
                 <Forma text="Email" type="text" placeholder="Email" />
                 <Forma text="Customer Id" type="text" placeholder="Customer Id" />
                 <div >
-                MemberShip:  <FaFacebook/>  <FaGithub/> <FaGoogle/>
+                MemberShip:  <FaFacebook className="fa"/>  <FaGithub className="fa"/> <FaGoogle className="fa"/>
                 </div>
+                <div className="buttondiv">
                 <Button  text="Cancel" />
                 <Button text="Submit" />
+                </div>
+               
             </div>
         )
     }
